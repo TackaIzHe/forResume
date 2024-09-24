@@ -1,0 +1,2 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(3,10): error C1083: Не удается открыть файл включение: SFML/Graphics.hpp: No such file or directory,

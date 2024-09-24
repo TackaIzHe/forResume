@@ -1,0 +1,10 @@
+﻿  ConsoleApplication1.cpp
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(20,21): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(23,21): warning C4554: ">>": проверьте приоритет операторов на ошибки; для уточнения приоритета используйте скобки
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(25,18): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(50,48): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(86,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(128,20): warning C4305: *=: усечение из "double" в "float"
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(129,21): warning C4305: *=: усечение из "double" в "float"
+C:\Users\TackaIzHe\source\repos\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.cpp(130,21): warning C4305: *=: усечение из "double" в "float"
+  ConsoleApplication1.vcxproj -> C:\Users\TackaIzHe\source\repos\ConsoleApplication1\x64\Debug\ConsoleApplication1.exe
