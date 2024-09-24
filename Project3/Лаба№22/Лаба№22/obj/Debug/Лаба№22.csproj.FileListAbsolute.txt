@@ -1,0 +1,16 @@
+C:\Users\user\source\repos\Лаба№22\Лаба№22\bin\Debug\Лаба№22.exe.config
+C:\Users\user\source\repos\Лаба№22\Лаба№22\bin\Debug\Лаба№22.exe
+C:\Users\user\source\repos\Лаба№22\Лаба№22\bin\Debug\Лаба№22.pdb
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22.csproj.SuggestedBindingRedirects.cache
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\MainWindow.g.cs
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\App.g.cs
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22_MarkupCompile.cache
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22_MarkupCompile.lref
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\MainWindow.baml
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22.g.resources
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба_22.Properties.Resources.resources
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22.csproj.GenerateResource.cache
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22.exe
+C:\Users\user\source\repos\Лаба№22\Лаба№22\obj\Debug\Лаба№22.pdb
