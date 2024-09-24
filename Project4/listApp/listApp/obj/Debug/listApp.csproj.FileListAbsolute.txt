@@ -1,0 +1,15 @@
+C:\Users\TackaIzHe\source\repos\listApp\listApp\bin\Debug\listApp.exe.config
+C:\Users\TackaIzHe\source\repos\listApp\listApp\bin\Debug\listApp.exe
+C:\Users\TackaIzHe\source\repos\listApp\listApp\bin\Debug\listApp.pdb
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp.csproj.AssemblyReference.cache
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\MainWindow.g.cs
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\App.g.cs
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp_MarkupCompile.cache
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp_MarkupCompile.lref
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\MainWindow.baml
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp.g.resources
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp.Properties.Resources.resources
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp.csproj.GenerateResource.cache
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp.csproj.CoreCompileInputs.cache
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp.exe
+C:\Users\TackaIzHe\source\repos\listApp\listApp\obj\Debug\listApp.pdb
