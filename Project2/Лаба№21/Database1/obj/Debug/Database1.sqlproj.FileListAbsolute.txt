@@ -1,0 +1,10 @@
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\bin\Debug\Database1.dacpac
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\bin\Debug\Database1.dll
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\bin\Debug\Database1.pdb
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\obj\Debug\Database1.sqlproj.AssemblyReference.cache
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\obj\Debug\Model.xml
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\obj\Debug\refactor.xml
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\obj\Debug\postdeploy.sql
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\obj\Debug\predeploy.sql
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\obj\Debug\Database1.dll
+C:\Users\TackaIzHe\source\repos\Лаба№21\Database1\obj\Debug\Database1.pdb

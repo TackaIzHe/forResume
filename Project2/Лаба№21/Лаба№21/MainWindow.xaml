@@ -1,0 +1,67 @@
+﻿<Window x:Class="Лаба_21.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лаба_21"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="23*"/>
+            <RowDefinition Height="18*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Text="Students" Margin="5,0,0,0"/>
+        <Button Width="15" Height="15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,1,10,0" Click="RemoveStudentAction">
+            <Button.Background>
+                <ImageBrush ImageSource="/4.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Button Width="15" Height="15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,1,30,0" Click="AddStudentAction">
+            <Button.Background>
+                <ImageBrush ImageSource="/1.png"/>
+            </Button.Background>
+        </Button>
+        <Border BorderBrush="Black" OpacityMask="Black" Margin="10,20,10,0" BorderThickness="1,1,1,1" >
+            <Grid >
+                <DataGrid x:Name="Students" ItemsSource="{Binding}" AlternatingRowBackground="Gray"/>
+            </Grid>
+        </Border>
+        <TextBlock Text="Groups" Grid.Row="1" Margin="5,0,0,0" />
+        <Button Width="15" Height="15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,1,10,0" Grid.Row="1" Click="RemoveGroupAction" >
+            <Button.Background>
+                <ImageBrush ImageSource="/4.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Button Width="15" Height="15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,1,30,0" Grid.Row="1" Click="AddGroupAction"        >
+            <Button.Background>
+                <ImageBrush ImageSource="/1.png"/>
+            </Button.Background>
+        </Button>
+        <Border Grid.Row="1" BorderBrush="Black" Margin="10,20,10,0" BorderThickness="1,1,1,1">
+            <Grid>
+                <DataGrid x:Name="Groups" ItemsSource="{Binding}" AlternatingRowBackground="Gray"/>
+            </Grid>
+        </Border>
+        <TextBlock Text="Faculs" Grid.Row="2" Margin="5,0,0,0"/>
+        <Button Width="15" Height="15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,1,10,0" Grid.Row="2" Click="RemoveFaculAction" >
+            <Button.Background>
+                <ImageBrush ImageSource="/4.png" Stretch="Fill"/>
+            </Button.Background>
+        </Button>
+        <Button Width="15" Height="15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,1,30,0" Grid.Row="2" Click="AddFaculAction">
+            <Button.Background>
+                <ImageBrush ImageSource="/1.png"/>
+            </Button.Background>
+        </Button>
+        <Border Grid.Row="2" BorderBrush="Black" Margin="10,20,10,10" BorderThickness="1,1,1,1" >
+            <Grid>
+                <DataGrid x:Name="Faculs" ItemsSource="{Binding}" AlternatingRowBackground="Gray"/>
+            </Grid>
+        </Border>
+
+    </Grid>
+</Window>

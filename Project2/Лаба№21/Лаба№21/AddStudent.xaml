@@ -1,0 +1,41 @@
+﻿<Window x:Class="Лаба_21.AddStudent"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Лаба_21"
+        mc:Ignorable="d"
+        Title="AddStudent" Height="150" Width="400">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="48*"/>
+            <RowDefinition Height="49*"/>
+            <RowDefinition Height="37*"/>
+        </Grid.RowDefinitions>
+        <Border BorderThickness="1,1,1,1" BorderBrush="Black">
+            <TextBlock x:Name="a"/>
+        </Border>
+        <Border BorderThickness="1,1,1,1" BorderBrush="Black" Grid.ColumnSpan="3" Margin="133,0,133,0">
+            <TextBlock x:Name="b" />
+        </Border>
+        <Border BorderThickness="1,1,1,1" Grid.Column="2" BorderBrush="Black">
+            <TextBlock x:Name="c" />
+        </Border>
+        <Border BorderBrush="Black" Grid.Row="1" BorderThickness="1,1,1,1" Margin="0,1,0,0">
+            <TextBox x:Name="a1"/>
+        </Border>
+        <Border BorderBrush="Black" Grid.Row="1" BorderThickness="1,1,1,1" Grid.ColumnSpan="3" Margin="133,1,133,0">
+            <TextBox x:Name="b1"/>
+        </Border>
+        <Border BorderBrush="Black" Grid.Row="1" Grid.Column="2" BorderThickness="1,1,1,1" Margin="0,1,0,0">
+            <TextBox x:Name="c1"/>
+        </Border>
+        <Button Grid.Row="2" Grid.Column="2" Content="Add" Click="Add" />
+
+    </Grid>
+</Window>
