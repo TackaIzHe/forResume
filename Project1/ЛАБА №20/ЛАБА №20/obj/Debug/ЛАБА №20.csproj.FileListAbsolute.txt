@@ -1,0 +1,19 @@
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20.csproj.AssemblyReference.cache
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\App.g.cs
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20_MarkupCompile.cache
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\bin\Debug\ЛАБА №20.exe.config
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\bin\Debug\ЛАБА №20.exe
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\bin\Debug\ЛАБА №20.pdb
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\MainWindow.g.cs
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20_MarkupCompile.lref
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\MainWindow.baml
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20.g.resources
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА__20.Properties.Resources.resources
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20.csproj.GenerateResource.cache
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20.csproj.CoreCompileInputs.cache
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20.exe
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20.pdb
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\bin\Debug\win2.exe
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\bin\Debug\win2.pdb
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\bin\Debug\win2.exe.config
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\ЛАБА №20\obj\Debug\ЛАБА №20.csproj.Up2Date

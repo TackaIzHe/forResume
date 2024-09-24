@@ -1,0 +1,16 @@
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\bin\Debug\win2.exe.config
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\bin\Debug\win2.exe
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\bin\Debug\win2.pdb
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2.csproj.AssemblyReference.cache
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\MainWindow.g.cs
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\App.g.cs
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2_MarkupCompile.cache
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2_MarkupCompile.lref
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\MainWindow.baml
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2.g.resources
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2.Properties.Resources.resources
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2.csproj.GenerateResource.cache
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2.csproj.CoreCompileInputs.cache
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2.exe
+C:\Users\TackaIzHe\source\repos\ЛАБА №20\win2\obj\Debug\win2.pdb

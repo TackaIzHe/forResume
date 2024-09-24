@@ -1,0 +1,157 @@
+﻿<Window x:Name="window" x:Class="win2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:win2"
+        mc:Ignorable="d"
+        Title="Палитра" Height="250" Width="250" ShowInTaskbar="False" >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Button Click="White" Height="25" Width="25" Background="White" BorderThickness="3">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Height="25" Width="25" Background="Black" BorderThickness="3" Grid.Column="1" Click="Black">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Red" Height="25" Width="25" Background="Red" BorderThickness="3" Grid.Column="2">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Yellow" Height="25" Width="25" Background="Yellow" BorderThickness="3" Grid.Column="3">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Green" Height="25" Width="25" Background="Green" BorderThickness="3" Grid.Column="4">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Blue" Height="25" Width="25" Background="Blue" BorderThickness="3" Grid.Column="5">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Purple" Height="25" Width="25" Background="Purple" BorderThickness="3" Grid.Column="6">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+
+        <Button Click="Gray" Height="25" Width="25" Background="Gray" BorderThickness="3" Grid.Row="1">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Pink" Height="25" Width="25" Background="Pink" BorderThickness="3" Grid.Column="1" Grid.Row="1">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Orange" Height="25" Width="25" Background="Orange" BorderThickness="3" Grid.Column="2" Grid.Row="1">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Aqua" Height="25" Width="25" Background="Aqua" BorderThickness="3" Grid.Column="3" Grid.Row="1">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Azure" Height="25" Width="25" Background="Azure" BorderThickness="3" Grid.Column="4" Grid.Row="1">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="Brow" Height="25" Width="25" Background="Brown" BorderThickness="3" Grid.Column="5" Grid.Row="1">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+
+        <Button Click="DarkBlue" Height="25" Width="25" Background="DarkBlue" BorderThickness="3" Grid.Column="6" Grid.Row="1">
+            <Button.BorderBrush>
+                <RadialGradientBrush>
+                    <GradientStop Offset="0"/>
+                    <GradientStop Offset="1" Color="DimGray"/>
+                </RadialGradientBrush>
+            </Button.BorderBrush>
+        </Button>
+        <Slider x:Name="sliderSize" Maximum="100" Minimum="1" Grid.Row="2" Grid.ColumnSpan="7" PreviewMouseLeftButtonUp="Update" SmallChange="1"/>
+        <TextBox x:Name="size_date" Grid.Row="3" Grid.Column="6" Text="1" FontSize="12" KeyDown="Update1"  />
+
+    </Grid>
+</Window>
