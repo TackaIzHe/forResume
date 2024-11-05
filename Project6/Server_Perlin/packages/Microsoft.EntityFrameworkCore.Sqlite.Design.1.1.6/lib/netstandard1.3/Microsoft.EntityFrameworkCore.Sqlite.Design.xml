@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Microsoft.EntityFrameworkCore.Sqlite.Design</name>
+    </assembly>
+    <members>
+        <member name="T:Microsoft.EntityFrameworkCore.Infrastructure.SqliteDesignEventId">
+            <summary>
+                Values that are used as the eventId when logging messages from the SQLite Design Entity Framework Core
+                components.
+            </summary>
+        </member>
+        <member name="F:Microsoft.EntityFrameworkCore.Infrastructure.SqliteDesignEventId.IndexMissingColumnNameWarning">
+            <summary>
+                Column name empty on index.
+            </summary>
+        </member>
+        <member name="F:Microsoft.EntityFrameworkCore.Infrastructure.SqliteDesignEventId.ForeignKeyReferencesMissingColumn">
+            <summary>
+                Principal column not found.
+            </summary>
+        </member>
+        <member name="F:Microsoft.EntityFrameworkCore.Infrastructure.SqliteDesignEventId.SchemasNotSupportedWarning">
+            <summary>
+                Using schema selections warning.
+            </summary>
+        </member>
+        <member name="T:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteDatabaseModelFactory">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteDatabaseModelFactory.#ctor(Microsoft.Extensions.Logging.ILogger{Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteDatabaseModelFactory})">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteDatabaseModelFactory.Logger">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteDatabaseModelFactory.Create(System.String,Microsoft.EntityFrameworkCore.Scaffolding.TableSelectionSet)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteDatabaseModelFactory.Create(System.Data.Common.DbConnection,Microsoft.EntityFrameworkCore.Scaffolding.TableSelectionSet)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteDesignTimeServices">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteDesignTimeServices.ConfigureDesignTimeServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteScaffoldingModelFactory">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteScaffoldingModelFactory.#ctor(Microsoft.Extensions.Logging.ILoggerFactory,Microsoft.EntityFrameworkCore.Storage.IRelationalTypeMapper,Microsoft.EntityFrameworkCore.Scaffolding.IDatabaseModelFactory,Microsoft.EntityFrameworkCore.Scaffolding.Internal.CandidateNamingService)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteScaffoldingModelFactory.Create(System.String,Microsoft.EntityFrameworkCore.Scaffolding.TableSelectionSet)">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Scaffolding.Internal.SqliteTableSelectionSetExtensions.Allows(Microsoft.EntityFrameworkCore.Scaffolding.TableSelectionSet,System.String)">
+            <summary>
+                Tests whether the table is allowed by the <see cref="T:Microsoft.EntityFrameworkCore.Scaffolding.TableSelectionSet" /> and
+                updates the <see cref="T:Microsoft.EntityFrameworkCore.Scaffolding.TableSelectionSet" />'s <see cref="T:Microsoft.EntityFrameworkCore.Scaffolding.TableSelectionSet.Selection" />(s)
+                to mark that they have been matched.
+            </summary>
+            <param name="tableSet"> the <see cref="T:Microsoft.EntityFrameworkCore.Scaffolding.TableSelectionSet" /> to test </param>
+            <param name="tableName"> name of the database table to check </param>
+            <returns> whether or not the table is allowed </returns>
+        </member>
+        <member name="T:Microsoft.EntityFrameworkCore.Internal.SqliteDesignLoggerExtensions">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignLoggerExtensions.LogWarning(Microsoft.Extensions.Logging.ILogger,Microsoft.EntityFrameworkCore.Infrastructure.SqliteDesignEventId,System.Func{System.String})">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignLoggerExtensions.LogDebug(Microsoft.Extensions.Logging.ILogger,Microsoft.EntityFrameworkCore.Infrastructure.SqliteDesignEventId,System.Func{System.String})">
+            <summary>
+                This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="T:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings">
+            <summary>
+            	This API supports the Entity Framework Core infrastructure and is not intended to be used
+                directly from your code. This API may change or be removed in future releases.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.ColumnNameEmptyOnIndex(System.Object,System.Object)">
+            <summary>
+            Found a column on index {indexName} on table {tableName} with an empty or null name. Not including column in index.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.FoundColumn(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Found column on table: {tableName}, column name: {columnName}, data type: {dataType}, ordinal: {ordinal}, not nullable: {isNotNullable}, primary key ordinal: {primaryKeyOrdinal}, default value: {defaultValue}.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.FoundForeignKeyColumn(System.Object,System.Object,System.Object,System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Found foreign key column on table: {tableName}, id: {id}, principal table: {principalTableName}, column name: {columnName}, principal column name: {principalColumnName}, delete action: {deleteAction}, ordinal: {ordinal}.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.FoundIndex(System.Object,System.Object,System.Object)">
+            <summary>
+            Found index with name: {indexName}, table: {tableName}, is unique: {isUnique}.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.FoundIndexColumn(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            Found index column on index {indexName} on table {tableName}, column name: {columnName}, ordinal: {ordinal}.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.FoundTable(System.Object)">
+            <summary>
+            Found table with name: {name}.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.PrincipalColumnNotFound(System.Object,System.Object,System.Object,System.Object)">
+            <summary>
+            For foreign key with identity {id} on table {tableName}, unable to find the column called {principalColumnName} on the foreign key's principal table, {principalTableName}. Skipping foreign key.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.PrincipalTableNotFound(System.Object,System.Object,System.Object)">
+            <summary>
+            For foreign key with identity {id} on table {tableName}, unable to find the principal table {principalTableName}. Either the principal table is missing from the database or it was not included in the selection set. Skipping foreign key.
+            </summary>
+        </member>
+        <member name="M:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.TableNotInSelectionSet(System.Object)">
+            <summary>
+            Table {tableName} is not included in the selection set. Skipping.
+            </summary>
+        </member>
+        <member name="P:Microsoft.EntityFrameworkCore.Internal.SqliteDesignStrings.UsingSchemaSelectionsWarning">
+            <summary>
+            Scaffolding from a SQLite database will ignore any schema selection arguments. 
+            </summary>
+        </member>
+    </members>
+</doc>
