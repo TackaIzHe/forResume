@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{956974A7-A603-4CE5-9B97-F7E77FAA81EA}|Server_Perlin\\Server_Perlin.csproj|c:\\users\\tackaizhe\\source\\repos\\server_perlin\\server_perlin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956974A7-A603-4CE5-9B97-F7E77FAA81EA}|Server_Perlin\\Server_Perlin.csproj|solutionrelative:server_perlin\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956974A7-A603-4CE5-9B97-F7E77FAA81EA}|Server_Perlin\\Server_Perlin.csproj|C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\server_perlin\\data\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956974A7-A603-4CE5-9B97-F7E77FAA81EA}|Server_Perlin\\Server_Perlin.csproj|solutionrelative:server_perlin\\data\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956974A7-A603-4CE5-9B97-F7E77FAA81EA}|Server_Perlin\\Server_Perlin.csproj|C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\server_perlin\\data\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956974A7-A603-4CE5-9B97-F7E77FAA81EA}|Server_Perlin\\Server_Perlin.csproj|solutionrelative:server_perlin\\data\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{956974A7-A603-4CE5-9B97-F7E77FAA81EA}|Server_Perlin\\Server_Perlin.csproj|C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\server_perlin\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{956974A7-A603-4CE5-9B97-F7E77FAA81EA}|Server_Perlin\\Server_Perlin.csproj|solutionrelative:server_perlin\\data\\databasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\Server_Perlin\\Program.cs",
+              "RelativeDocumentMoniker": "Server_Perlin\\Program.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\Server_Perlin\\Program.cs",
+              "RelativeToolTip": "Server_Perlin\\Program.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAUwM4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:54:32.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Post.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\Server_Perlin\\Data\\Post.cs",
+              "RelativeDocumentMoniker": "Server_Perlin\\Data\\Post.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\Server_Perlin\\Data\\Post.cs",
+              "RelativeToolTip": "Server_Perlin\\Data\\Post.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:11:06.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "comment.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\Server_Perlin\\Data\\comment.cs",
+              "RelativeDocumentMoniker": "Server_Perlin\\Data\\comment.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\Server_Perlin\\Data\\comment.cs",
+              "RelativeToolTip": "Server_Perlin\\Data\\comment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-18T07:14:20.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataBaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\Server_Perlin\\Data\\DataBaseContext.cs",
+              "RelativeDocumentMoniker": "Server_Perlin\\Data\\DataBaseContext.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\Server_Perlin\\Server_Perlin\\Data\\DataBaseContext.cs",
+              "RelativeToolTip": "Server_Perlin\\Data\\DataBaseContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-17T10:56:52.679Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
