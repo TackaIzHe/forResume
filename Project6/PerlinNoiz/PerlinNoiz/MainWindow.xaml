@@ -1,0 +1,47 @@
+﻿<Window x:Class="PerlinNoiz.MainWindow"
+        x:Name="win"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PerlinNoiz"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="250" Closed="isClosed">
+    <Grid x:Name="grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="59*"/>
+            <RowDefinition Height="22*"/>
+            <RowDefinition Height="22*"/>
+            <RowDefinition Height="66*"/>
+            <RowDefinition Height="65*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+
+        </Grid.ColumnDefinitions>
+        <Button Content="FirstPerlinAlg"  Click="CreateFirstPerlinImage" Margin="0,0,0,2"/>
+        <Button Content="SecondPerlinAlg"  Click="CreateSecondPerlinImage" Grid.Column="1" Margin="0,0,0,2"/>
+
+        <Label Content="Маштаб" Grid.Column="1" FontSize="11" Padding="0,0,0,1" Grid.Row="1" />
+        <TextBox x:Name="Mash" Grid.Row="1"  />
+
+        <Label Content="Семя" FontSize="11" Grid.Row="2" Grid.Column="1" Padding="0,0,0,1" />
+        <TextBox x:Name="Seed" Grid.Row="2"   />
+
+        <Button x:Name="List"  Grid.Row="3" Click="OpenListImage" Grid.RowSpan="2" UseLayoutRounding="False"  >
+            <TextBlock Text="Сохранёные изображения" TextWrapping="WrapWithOverflow" TextAlignment="Center"/>
+        </Button>
+
+        <Button Grid.Row="2" Grid.Column="1" Margin="63,22,0,0" Grid.RowSpan="2" Click="openServerWindow">
+            <TextBlock Text="Список Постов Сервера" TextWrapping="Wrap" TextAlignment="Center"/>
+        </Button>
+
+        <Button x:Name="Server" Grid.Row="2" Grid.Column="1" Click="connect" Margin="0,22,62,0" Grid.RowSpan="2" >
+            <TextBlock Text="Подключиться к серверу" TextWrapping="Wrap" TextAlignment="Center"/>
+        </Button>
+        <Button x:Name="Help" Content="Помощь" Grid.Row="4" Grid.Column="1"/>
+
+    </Grid>
+</Window>
