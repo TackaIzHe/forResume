@@ -1,0 +1,41 @@
+﻿@page "{id}"
+@model RepairPC1.Pages.ContextOrderModel
+@{
+}
+<h1>Имя Клиента</h1>
+<h3>@Model.order.Name</h3>
+<h1>Номер Телефона</h1>
+<h3>@Model.order.Tel</h3>
+<h1>Цена услуг</h1>
+<h3>@Model.order.Price</h3>
+<h1>Адрес</h1>
+<h3>@Model.order.Adress</h3>
+<h1>Услуги</h1>
+	@foreach (string ser in Model.order.Services)
+	{
+		<h3>@ser</h3>
+
+	}
+	@if(Model.order.Stat=="Wait")
+	{
+	<form method="post">
+		<input name="orderId" type="text" hidden value="@Model.order.Id"/>
+		<input name="masterId" type="text" hidden  value="@User.Claims.ToList().Find(x => x.Type == "MasterId").Value"/>
+		<input type="submit" value="Взять заказ"/>
+	</form>
+	}
+    else if (Model.order.Stat == "Accept")
+    {
+    	<h1>В обработке</h1>
+	<form method="post">
+		<input name="orderId" type="text" hidden value="@Model.order.Id" />
+		<input name="masterId" type="text" hidden value="@User.Claims.ToList().Find(x => x.Type == "MasterId").Value" />
+		<input type="submit" value="Заказ выполнен" />
+	</form>
+    }
+    else
+    {
+    	<h1>Заказ выполнен</h1>
+    }
+
+

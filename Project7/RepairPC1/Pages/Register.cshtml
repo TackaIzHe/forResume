@@ -1,0 +1,50 @@
+﻿@page
+@model RepairPC1.Pages.RegisterModel
+@{
+}
+<div class="text-center">
+
+    <h1>Register</h1>
+
+    <form method="post" id="rofm">
+
+        <p>
+            <label>Введите Name</label>
+            <input type="text" name="Name" />
+        </p>
+
+        <p>
+            <label>Введите Email</label>
+            <input type="text" name="Email" />
+        </p>
+
+        <p>
+            <label>Введите Password</label>
+            <input type="password" name="Password" />
+        </p>
+
+        <p>
+            <label>Выберите Role</label>
+            <select list="role" name="Role" >
+                <option value="Master">Master</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </p>
+        <input type="submit" value="Отправить" />
+    </form>
+
+</div>
+
+
+
+
+
+<style>
+    form{
+         width: 250px;
+         height: 100px auto;
+         margin-left:auto;
+         margin-right: auto;
+
+    }
+</style>

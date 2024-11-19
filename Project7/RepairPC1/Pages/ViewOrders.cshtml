@@ -1,0 +1,25 @@
+﻿@page
+@model RepairPC1.Pages.ViewOrdersModel
+@{
+}
+@if(Model.orders.Count>0)
+{
+
+@foreach(var order in Model.orders)
+{
+	<form method="post">
+	<h1 name="tel"> @order.Tel</h1>
+	<h2 name="name">@order.Name</h2>
+	<h2 name="adress">@order.Adress</h2>
+	<input name="id" hidden value=@order.Id />
+	
+	<button type="submit" >Открыть заказ</button>
+	</form>
+	}
+}
+else
+{
+	<h1>Пока заказов нет</h1>
+}
+
+

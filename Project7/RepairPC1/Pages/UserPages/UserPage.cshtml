@@ -1,0 +1,17 @@
+﻿@page
+@model UserPageModel
+@{
+}
+<form method="get">
+	<input type="submit" value="Accept" name="stat"/>
+	<input type="submit" value="Complite" name="stat"/>
+</form>
+
+@using RepairPC1.Data;
+@foreach(Order order in Model.orders)
+{
+	<form method="post">
+		<input name="id" value="@order.Id" hidden/>
+	<input type="submit" value="Номер заказа @order.Id"/>
+	</form>
+}

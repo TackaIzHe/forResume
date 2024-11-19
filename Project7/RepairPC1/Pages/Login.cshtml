@@ -1,0 +1,37 @@
+﻿@page
+@model RepairPC1.Pages.LoginModel
+@{
+}
+<div class="text-center">
+
+    <h1>Log in</h1>
+
+    <form method="post" id="rofm">
+
+        <p>
+            <label>Введите Email</label>
+            <input type="text" name="Email" />
+        </p>
+
+        <p>
+            <label>Введите Password</label>
+            <input type="password" name="Password" />
+        </p>
+        <input type="submit" value="Отправить"/>
+    </form>
+    <h1>@Model.Result</h1>
+</div>
+
+
+
+
+
+<style>
+    form{
+         width: 250px;
+         height: 100px auto;
+         margin-left:auto;
+         margin-right: auto;
+
+    }
+</style>

@@ -1,0 +1,60 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+
+    <h1>Вас приветствует сайт где можно оставить заказ на ремонт ПК.</h1>
+
+    <form method="post" id="rofm">
+
+        <p>
+            <label>Введите имя</label>
+            <input type="text" name="name" />
+        </p>
+
+        <p>
+            <label>Введите номер тел.</label>
+            <input type="tel" name="numb" />
+        </p>
+
+        <p>
+            <label>Введите Адрес</label>
+            <input type="text" name="adress" />
+        </p>
+
+        <p>
+            <label>Выберите услуги</label>
+            <p>
+                Диагностика 500Р
+            <input type="checkbox" name="servise1" value="Диагностика"/>
+            </p>
+            <p>
+                Чистка ПК 500Р
+            <input type="checkbox" name="servise2" value="Чистка" />
+            </p>
+            <p>
+            Замена комплектующих 1000Р
+            <input type="checkbox" name="servise3" value="Замена Комплектующих"/>
+            </p>
+        </p>
+
+        <input type="submit" value="Отправить" />
+    </form>
+    <h1>@Model.order</h1>
+</div>
+
+
+
+
+<style>
+    form{
+         width: 250px;
+         height: 100px auto;
+         margin-left:auto;
+         margin-right: auto;
+
+    }
+</style>

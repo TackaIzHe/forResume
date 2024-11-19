@@ -1,0 +1,168 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|c:\\users\\tackaizhe\\source\\repos\\repairpc1\\repairpc1\\pages\\userpages\\userpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|solutionrelative:repairpc1\\pages\\userpages\\userpage.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|c:\\users\\tackaizhe\\source\\repos\\repairpc1\\repairpc1\\pages\\userpages\\userpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|solutionrelative:repairpc1\\pages\\userpages\\userpage.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|c:\\users\\tackaizhe\\source\\repos\\repairpc1\\repairpc1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|solutionrelative:repairpc1\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|c:\\users\\tackaizhe\\source\\repos\\repairpc1\\repairpc1\\pages\\vieworders.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|solutionrelative:repairpc1\\pages\\vieworders.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|c:\\users\\tackaizhe\\source\\repos\\repairpc1\\repairpc1\\data\\rpcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|solutionrelative:repairpc1\\data\\rpcdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|c:\\users\\tackaizhe\\source\\repos\\repairpc1\\repairpc1\\pages\\contextorder.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|solutionrelative:repairpc1\\pages\\contextorder.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|c:\\users\\tackaizhe\\source\\repos\\repairpc1\\repairpc1\\pages\\contextorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|solutionrelative:repairpc1\\pages\\contextorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|c:\\users\\tackaizhe\\source\\repos\\repairpc1\\repairpc1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D6D89DE6-3F34-4628-8465-8DDF11BC645A}|RepairPC1\\RepairPC1.csproj|solutionrelative:repairpc1\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RPCDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Data\\RPCDbContext.cs",
+              "RelativeDocumentMoniker": "RepairPC1\\Data\\RPCDbContext.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Data\\RPCDbContext.cs",
+              "RelativeToolTip": "RepairPC1\\Data\\RPCDbContext.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T14:49:14.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserPage.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\UserPages\\UserPage.cshtml.cs",
+              "RelativeDocumentMoniker": "RepairPC1\\Pages\\UserPages\\UserPage.cshtml.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\UserPages\\UserPage.cshtml.cs",
+              "RelativeToolTip": "RepairPC1\\Pages\\UserPages\\UserPage.cshtml.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAwAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T17:22:56.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserPage.cshtml",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\UserPages\\UserPage.cshtml",
+              "RelativeDocumentMoniker": "RepairPC1\\Pages\\UserPages\\UserPage.cshtml",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\UserPages\\UserPage.cshtml",
+              "RelativeToolTip": "RepairPC1\\Pages\\UserPages\\UserPage.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T17:19:20.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "RepairPC1\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "RepairPC1\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABMAAAAAAAAAAAAuwC0AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T17:17:22.034Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "RepairPC1\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\Index.cshtml",
+              "RelativeToolTip": "RepairPC1\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAowCcAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T12:20:57.935Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContextOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\ContextOrder.cshtml",
+              "RelativeDocumentMoniker": "RepairPC1\\Pages\\ContextOrder.cshtml",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\ContextOrder.cshtml",
+              "RelativeToolTip": "RepairPC1\\Pages\\ContextOrder.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAuwCAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T08:43:49.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ContextOrder.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\ContextOrder.cshtml.cs",
+              "RelativeDocumentMoniker": "RepairPC1\\Pages\\ContextOrder.cshtml.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\ContextOrder.cshtml.cs",
+              "RelativeToolTip": "RepairPC1\\Pages\\ContextOrder.cshtml.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA0wCIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:43:37.499Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ViewOrders.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\ViewOrders.cshtml.cs",
+              "RelativeDocumentMoniker": "RepairPC1\\Pages\\ViewOrders.cshtml.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\RepairPC1\\RepairPC1\\Pages\\ViewOrders.cshtml.cs",
+              "RelativeToolTip": "RepairPC1\\Pages\\ViewOrders.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T13:50:54.851Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
