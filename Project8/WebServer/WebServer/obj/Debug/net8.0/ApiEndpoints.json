@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "WebServer.EndPoints\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003CaddEndPoints\u003Eb__2",
+    "RelativePath": "DeleteUser/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebServer.EndPoints\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003CaddEndPoints\u003Eb__0",
+    "RelativePath": "Users/",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[WebServer.Objects.User, WebServer, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "WebServer.EndPoints\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003CaddEndPoints\u003Eb__1",
+    "RelativePath": "Users/{Id}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "WebServer.Objects.User",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

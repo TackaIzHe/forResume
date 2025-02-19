@@ -1,0 +1,118 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|c:\\users\\tackaizhe\\source\\repos\\webserver\\webserver\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|solutionrelative:webserver\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|c:\\users\\tackaizhe\\source\\repos\\webserver\\webserver\\objects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|solutionrelative:webserver\\objects\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|c:\\users\\tackaizhe\\source\\repos\\webserver\\webserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|solutionrelative:webserver\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|c:\\users\\tackaizhe\\source\\repos\\webserver\\webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|solutionrelative:webserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|c:\\users\\tackaizhe\\source\\repos\\webserver\\webserver\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3F82C898-C569-4D3F-9364-A23638E2FC2D}|WebServer\\WebServer.csproj|solutionrelative:webserver\\data\\dbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\Program.cs",
+              "RelativeDocumentMoniker": "WebServer\\Program.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\Program.cs",
+              "RelativeToolTip": "WebServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:19:23.729Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EndPoints.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\EndPoints.cs",
+              "RelativeDocumentMoniker": "WebServer\\EndPoints.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\EndPoints.cs",
+              "RelativeToolTip": "WebServer\\EndPoints.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAiwBQAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T13:12:46.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DBContext.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\data\\DBContext.cs",
+              "RelativeDocumentMoniker": "WebServer\\data\\DBContext.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\data\\DBContext.cs",
+              "RelativeToolTip": "WebServer\\data\\DBContext.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAADsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:41:31.59Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\Objects\\User.cs",
+              "RelativeDocumentMoniker": "WebServer\\Objects\\User.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\Objects\\User.cs",
+              "RelativeToolTip": "WebServer\\Objects\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:21:58.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "WebServer\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\WebServer\\WebServer\\Properties\\launchSettings.json",
+              "RelativeToolTip": "WebServer\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-02-16T12:18:17.383Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

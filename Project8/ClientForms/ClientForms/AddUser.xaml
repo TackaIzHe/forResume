@@ -1,0 +1,34 @@
+﻿<Window x:Class="ClientForms.AddUser"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientForms"
+        mc:Ignorable="d"
+        Title="AddUser" Height="450" Width="255" ResizeMode="NoResize">
+    <Grid>
+        <StackPanel Margin="10,10,10,10" Orientation="Horizontal">
+            
+            <StackPanel Width="95">
+                <TextBlock Text="Имя" Height="17.96" />
+                <TextBlock Text="Фамилия" Margin="0,10,0,0" Height="17.96" />
+                <TextBlock Text="Отчество" Margin="0,10,0,0" Height="17.96" />
+                <TextBlock Text="День рождения" Margin="0,10,0,0" Height="17.96" />
+                <TextBlock Text="адрес" Margin="0,10,0,0" Height="17.96" />
+                <TextBlock Text="Отдел" Margin="0,10,0,0" Height="17.96" />
+                <TextBlock Text="О себе" Margin="0,10,0,0" Height="17.96" />
+                <Button x:Name="button" Content="Добавить" Height="17" Margin="0,10,0,0" Click="submit"/>
+            </StackPanel>
+
+            <StackPanel Margin="10,0,0,0" Width="121">
+                <TextBox x:Name="name" />
+                <TextBox x:Name="surname" Margin="0,10,0,0" />
+                <TextBox x:Name="patronymic" Margin="0,10,0,0" />
+                <TextBox x:Name="birthday" Margin="0,10,0,0" />
+                <TextBox x:Name="address" Margin="0,10,0,0" />
+                <TextBox x:Name="department" Margin="0,10,0,0" />
+                <TextBox x:Name="aboutMe" Margin="0,10,0,0" />
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

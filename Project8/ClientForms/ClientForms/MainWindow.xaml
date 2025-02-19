@@ -1,0 +1,31 @@
+﻿<Window x:Class="ClientForms.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ClientForms"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Margin="5">
+            <Button Content="Add" Width="50" Height="50" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,5,0" Click="addAction" />
+            <Button Content="Del" Width="50" Height="50" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,5,0" Click="delAction" />
+            <Button Content="Upd" Width="50" Height="50" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,0,5,0" Click="updAction" />
+        </StackPanel>
+        <ListView x:Name="Users" Margin="0,53,0,0" SelectionMode="Single" SelectionChanged="focusElement">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=id}" Header="Номер"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=name}" Header="Имя"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=surname}" Header="Фамилия"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=patronymic}" Header="Отчество"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=birthday}" Header="День Рождения"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=address}" Header="Адрес"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=department}" Header="Отдел"/>
+                    <GridViewColumn DisplayMemberBinding="{Binding Path=aboutMe}" Header="О себе"/>
+
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>
