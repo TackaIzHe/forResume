@@ -12,3 +12,5 @@
 #Project6 - Клиент-серверное приложение
 
 #Project7 - web-Приложение для обработки заказов, реализованое на asp .net RazorPage
+
+#Project8 - Клиент-серверное Приложение ТЗ-https://drive.google.com/file/d/1GNwTfoJCQD0Ec3JXkWmzaYuIY6DnWnEa/view
