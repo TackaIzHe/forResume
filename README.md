@@ -14,3 +14,5 @@
 #Project7 - web-Приложение для обработки заказов, реализованое на asp .net RazorPage
 
 #Project8 - Клиент-серверное Приложение ТЗ-https://drive.google.com/file/d/1GNwTfoJCQD0Ec3JXkWmzaYuIY6DnWnEa/view
+
+#Project9 - Сайт проверающий почту ТЗ-https://gist.github.com/paraekklisiarh/d64fbbc1de1028aaa7a47ff3fa0650a1
