@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "dgSpecHash": "pLo2sgTHigI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\servis\\servis.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\bouncycastle.cryptography\\2.5.0\\bouncycastle.cryptography.2.5.0.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\mailkit\\4.10.0\\mailkit.4.10.0.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\mimekit\\4.10.0\\mimekit.4.10.0.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\rabbitmq.client\\7.1.0\\rabbitmq.client.7.1.0.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

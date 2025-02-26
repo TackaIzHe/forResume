@@ -1,0 +1,155 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|c:\\users\\tackaizhe\\source\\repos\\messserver\\messserver\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|solutionrelative:messserver\\endpoints.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780372BC-AFF5-4001-BE84-11611F64976D}|servis\\servis.csproj|c:\\users\\tackaizhe\\source\\repos\\messserver\\servis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{780372BC-AFF5-4001-BE84-11611F64976D}|servis\\servis.csproj|solutionrelative:servis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|c:\\users\\tackaizhe\\source\\repos\\messserver\\messserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|solutionrelative:messserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|c:\\users\\tackaizhe\\source\\repos\\messserver\\messserver\\messserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|solutionrelative:messserver\\messserver.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{780372BC-AFF5-4001-BE84-11611F64976D}|servis\\servis.csproj|c:\\users\\tackaizhe\\source\\repos\\messserver\\servis\\servis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{780372BC-AFF5-4001-BE84-11611F64976D}|servis\\servis.csproj|solutionrelative:servis\\servis.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|c:\\users\\tackaizhe\\source\\repos\\messserver\\messserver\\writecode.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|solutionrelative:messserver\\writecode.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|c:\\users\\tackaizhe\\source\\repos\\messserver\\messserver\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A910BFD7-2B6F-41FD-8631-587D7BA07B35}|messServer\\messServer.csproj|solutionrelative:messserver\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "messServer",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\messServer.csproj",
+              "RelativeDocumentMoniker": "messServer\\messServer.csproj",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\messServer.csproj",
+              "RelativeToolTip": "messServer\\messServer.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T17:55:39.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "servis",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\servis\\servis.csproj",
+              "RelativeDocumentMoniker": "servis\\servis.csproj",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\servis\\servis.csproj",
+              "RelativeToolTip": "servis\\servis.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-02-25T16:23:15.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WriteCode.html",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\WriteCode.html",
+              "RelativeDocumentMoniker": "messServer\\WriteCode.html",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\WriteCode.html",
+              "RelativeToolTip": "messServer\\WriteCode.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-25T14:57:49.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Endpoints.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\Endpoints.cs",
+              "RelativeDocumentMoniker": "messServer\\Endpoints.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\Endpoints.cs",
+              "RelativeToolTip": "messServer\\Endpoints.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAowFgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T14:24:22.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.html",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\Index.html",
+              "RelativeDocumentMoniker": "messServer\\Index.html",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\Index.html",
+              "RelativeToolTip": "messServer\\Index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-02-25T13:38:30.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\Program.cs",
+              "RelativeDocumentMoniker": "messServer\\Program.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\Program.cs",
+              "RelativeToolTip": "messServer\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T11:11:25.152Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\servis\\Program.cs",
+              "RelativeDocumentMoniker": "servis\\Program.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\servis\\Program.cs",
+              "RelativeToolTip": "servis\\Program.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAYwGsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-22T09:54:56.632Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

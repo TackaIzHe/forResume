@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "7hDn74t6VxY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TackaIzHe\\source\\repos\\messServer\\messServer\\messServer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\rabbitmq.client\\7.1.0\\rabbitmq.client.7.1.0.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\TackaIzHe\\.nuget\\packages\\system.threading.ratelimiting\\8.0.0\\system.threading.ratelimiting.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

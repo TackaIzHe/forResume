@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "ZjLJUtUICE6yCQauo2Z8oG/zX6+rhXuxoyQk98hJzSw=",
+  "Source": "messServer",
+  "BasePath": "_content/messServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
