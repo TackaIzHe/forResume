@@ -1,0 +1,84 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<div class="text-center">
+
+    <h1 class="display-4">Welcome</h1>
+    
+    <table class="sortable">
+        <tr>
+            <th data-index="0" >Номер пользователя</th>
+            <th data-index="1" >Отдел</th>
+            <th data-index="2" >Ф.И.О.</th>
+            <th data-index="3" >Дата рождения</th>
+            <th data-index="4" >Дата Устройства на работу</th>
+            <th data-index="5" >Должность</th>
+            <th data-index="6" >Заработная плата</th>
+            <th colspan="2">Действие</th>
+            
+        </tr>
+        <tr>
+            <form method="post">
+                <input hidden name="method" value="post"/>
+                <td></td>
+                <td><input name="department" type="text"/></td>
+                <td><input name="name" type="text"/></td>
+                <td><input name="db" type="date"/></td>
+                <td><input name="dsw" type="date"/></td>
+                <td><input name="statys" type="text"/></td>
+                <td><input name="salary" type="number"/></td>
+                <td colspan="2"><input type="submit" value="Добавить"/></td>
+            </form>
+        </tr>
+        @foreach(Objects.User user in Model.Users)
+        {
+
+            <tr class="sortable">
+                <td class="input">@user.Id</td>
+                <form method="post">
+                    <td><input class="input" type="text" name="department" value="@user.Department" /></td>
+                    <td><input class="input" type="text" name="name" value="@user.Name" /></td>
+                    <td><input class="input" type="date" name="db" value="@user.DB" /></td>
+                    <td><input class="input" type="date" name="dsw" value="@user.DSW" /></td>
+                    <td><input class="input" type="text" name="statys" value="@user.Statys" /></td>
+                    <td><input class="input" type="number" name="salary" value="@user.Salary" /></td>
+                    <td>
+                    
+                        <input hidden name="method" value="put" />
+                        <input hidden name="user" value="@user.Id" />
+                        <input style="background-color:greenyellow" value="Update" type="submit">
+                </td>
+                </form>
+                    
+                <td>
+                    <form method="post">
+                        <input hidden name="method" value="delete" />
+                        <input hidden name="user" value="@user.Id" />
+                        <input style="background-color:red" value="Delete" type="submit">
+                    </form>
+                </td>   
+                
+            </tr>
+        }
+    </table>
+</div>
+
+<script src="/js/sort.js"></script>
+
+<style>
+    tr{
+        border: solid 2px;
+    }
+    td{
+        border: solid 2px;
+    }
+    th{
+        border: solid 2px;
+    }
+
+</style>
+
