@@ -1,0 +1,136 @@
+﻿@page
+@using Sibers.Objects;
+@model Sibers.Pages.UserPages.PutPersonModel
+@{
+}
+
+<form class="form-container" id="form-container">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="surname">Фамилия:</label>
+            <input type="text" id="surname" name="surname" required>
+
+            <label for="patronymic">Отчество:</label>
+            <input type="text" id="patronymic" name="patronymic">
+
+            <label for="role">Роль:</label>
+            <select id="role" name="role" required>
+                <option value="2">Employee</option>
+                <option value="1">Manager</option>
+                <option value="0">Director</option>
+            </select>
+
+            <button type="submit">Зарегистрироваться</button>
+        </form>
+
+
+<script>
+    function sendRequest (method, url, body = null) {
+        return new Promise( (resolve, reject) => {
+            const xhr = new XMLHttpRequest()
+            xhr.open(method, url)
+            xhr.responseType = 'json'
+            xhr.setRequestHeader('Content-Type', 'application/json')
+            xhr.onload = () => {
+                if (xhr.status >= 400) {
+                    reject(xhr.response)
+                } else {
+                    resolve(xhr.response)
+                    alert("Пользователь обнавлён");
+                }
+            }
+            xhr.onerror= () => {
+            reject(xhr.response)
+            }
+            xhr.send(JSON.stringify(body))
+        })
+    }
+    const form = document.getElementById("form-container");
+    form.addEventListener("submit", function(event) {
+                event.preventDefault(); // предотвращаем стандартное поведение отправки формы
+
+                // Получаем все чекбоксы с именем "options"
+                const name = form.querySelector('input[name="name"]').value;
+                const surname = form.querySelector('input[name="surname"]').value
+                const patronymic = form.querySelector('input[name="patronymic"]').value;
+                const role = document.getElementById("role").value;
+               
+
+                
+
+                // Формируем данные для отправки
+                const data = {
+                    id:@Model.person.id,
+                    name:name,
+                    surname:surname,
+                    patronymic:patronymic,
+                    email:"",
+                    password:"",
+                    role:parseInt(role)
+                };
+
+    sendRequest("PUT",'/UserPages/PutPerson',data)
+    })
+</script>
+
+<style>
+
+
+    .form-container {
+        background-color: rgba(255, 255, 255);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0);
+        width: 400px;
+    }
+
+    h2 {
+        text-align: center;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #555;
+        text-align: left;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="password"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        transition: border-color 0.3s;
+    }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            border-color: #0056b3;
+            outline: none;
+        }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+</style>

@@ -1,0 +1,112 @@
+﻿@page
+@model Sibers.Pages.UserPages.ProjectModel
+@{
+}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Детали проекта</title>
+    <style>
+
+
+        .containerr {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-actions {
+            margin-top: 20px;
+        }
+
+        .btn {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+            .btn:hover {
+                background-color: #0056b3;
+            }
+    </style>
+</head>
+<body>
+    <div class="containerr">
+        <h1 class="project-title">Название проекта</h1>
+        <h2>@Model.project.name</h2>
+
+        <div class="project-details">
+            <h2>Закащик</h2>
+            <p>@Model.project.custCompany</p>
+        </div>
+        
+        <div class="project-details">
+            <h2>Исполнитель</h2>
+            <p>@Model.project.execCompany</p>
+        </div>
+
+        <div class="project-details">
+            <h2>Работники</h2>
+            @foreach(var peop in Model.project.idPersons){
+
+            <p>@peop, </p>
+            }
+        </div>
+
+        <div class="project-details">
+            <h2>Проектный менеджер</h2>
+            <p>@Model.project.idProjManager</p>
+        </div>
+
+
+        <div class="project-dates">
+            <h2>Сроки:</h2>
+            <p><strong>Начало:</strong>@Model.project.startDate</p>
+            <p><strong>Окончание:</strong>@Model.project.endDate</p>
+        </div>
+
+        <div class="project-details">
+            <h2>Приоритет: @Model.project.priority</h2>
+        </div>
+
+        <div class="project-actions">
+            <a class="btn">Редактировать проект</a>
+        </div>
+    </div>
+    <div class="containerr">
+        <h1>Список задач</h1>
+        <button style="padding:0px 0px 10px 0px" class="btn" onclick="postRed(@Model.project.id)">Добавить задачу</button>
+        <button class="btn" onclick="putRed(@Model.project.id)">Изменить задачу</button>
+        
+        @foreach(var task in Model.tasks)
+        {
+        <div class="containerr">
+            <button class="btn" onclick="getRed(@task.id)">@task.name</button>
+            <h1>Коментарий</h1>
+            <h2>@task.comment</h2>
+            <h1>Статус</h1>
+            <h2>@task.statusTask.ToString()</h2>
+        </div>
+        }
+    </di>
+</body>
+</html>
+<script>
+    function postRed(a){
+    window.location.href = `/UserPages/newTask?${a}`;
+    }
+    function putRed(a){
+    window.location.href = `/UserPages/putTask?${a}`;
+    }
+    function getRed(a){
+    window.location.href = `/UserPages/Task?${a}`;
+    }
+</script>

@@ -1,0 +1,133 @@
+﻿@page
+@model Sibers.Pages.UserPages.ProjectsModel
+@{
+}
+<div class="text-center">
+    <a class="a" asp-page="/UserPages/NewProject" id="toggleForm">Добавить проект</a>
+    
+
+    <table class="sortable">
+        <tr>
+            <th data-index="0">Номер проекта</th>
+            <th data-index="1">Имя проекта</th>
+            <th data-index="2">Компания закащика</th>
+            <th data-index="3">Компания исполнителя</th>
+            <th data-index="4">Список работников</th>
+            <th data-index="5">Проектный менеджер</th>
+            <th data-index="6">Дата начала</th>
+            <th data-index="7">Дата окончания</th>
+            <th data-index="8">Приоритет проекта</th>
+            <th data-index="9">Список задач</th>
+            <th colspan="2">Действие</th>
+        </tr>
+                
+
+            
+        @foreach (var proj in Model.projects)
+        {
+            string projId = $"/UserPages/Project?{proj.id}";
+            <tr onclick="red(@proj.id)" class="sortable">
+                
+                <td  class="input">@proj.id</td>
+                <td class="input" name="name">@proj.name</td>
+                <td class="input" name="custCompany">@proj.custCompany</td>
+                <td class="input" name="execCompany">@proj.execCompany</td>
+                <td class="input" name="idPersons">@proj.idPersons</td> <!--TODO-->
+                <td class="input" name="idProjManager">@proj.idProjManager</td>
+                <td class="input" name="startDate">@proj.startDate</td>
+                <td class="input" name="endDate">@proj.endDate</td>
+                <td class="input" name="priority">@proj.priority</td>
+                <td class="input" name="idTasks">@proj.idTasks</td><!--TODO-->
+                <td>
+
+                <form method="post">
+                    <input hidden name="method" value="put" />
+                    <input hidden name="id" value="@proj.id" />
+                    <input style="background-color:greenyellow" value="Update" type="submit">
+                </form>
+                </td>
+                    
+
+                <td>
+                    <form method="post">
+                        <input hidden name="method" value="delete" />
+                        <input hidden name="id" value="@proj.id" />
+                        <input style="background-color:red" value="Delete" type="submit">
+                    </form>
+                </td>
+
+            </tr>
+        }
+    </table>
+</div>
+
+<script src="/js/sort.js"></script>
+<script>
+    function red(id){
+        window.location.href = `/UserPages/Project?${id}`
+    }
+</script>
+
+
+<style>
+    tr {
+        border: solid 2px;
+    }
+
+    td {
+        border: solid 2px;
+    }
+
+    th {
+        border: solid 2px;
+    }
+
+    .form-container {
+        max-width: 600px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 8px;
+        color: #555;
+    }
+
+    input, textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+
+    .a {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+    .toggle-button {
+        margin-bottom: 15px;
+        background-color: #28a745;
+    }
+
+</style>

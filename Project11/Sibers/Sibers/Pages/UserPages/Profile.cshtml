@@ -1,0 +1,116 @@
+﻿@page
+@using Sibers.Objects;
+@model Sibers.Pages.UserPages.ProfileModel
+@{
+}
+<title>Личный профиль</title>
+<body>
+    <div class="profile-container">
+        <div class="profile-info">
+            @{
+                string id = User.Claims.ToList().Find(x => x.Type == "personId").Value;
+                int Id;
+                int.TryParse(id, out Id);
+                Person person = Model.dbcontext.findPerson(Id);
+            }
+            <h1>Личный профиль</h1>
+            <label for="name">Имя:</label>
+            <p id="name">@person.name</p>
+
+            <label for="last-name">Фамилия:</label>
+            <p id="last-name">@person.surname</p>
+
+            <label for="email">Электронная почта:</label>
+            <p id="email">@person.email</p>
+
+            <label for="role">Роль:</label>
+            <p id="role">@person.role</p>
+
+            <button class="edit-button">Изменить пароль</button>
+        </div>
+
+        <div class="projects">
+            <h2>Проекты</h2>
+            @foreach (Project project in Model.findProjects(Id)) 
+            {
+                string projId = $"/UserPages/Project?{project.id}";
+                <div class="project-item">
+                    <button class="edit-button" onclick="red(@project.id)">@project.name</button>>
+                </div>
+            }
+        </div>
+    </div>
+</body>
+
+<style>
+
+
+    .profile-container {
+        display: flex;
+        max-width: 1000px; /* Увеличенная ширина контейнера */
+        margin: auto;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .profile-info {
+        flex: 1;
+        padding: 20px;
+        border-right: 1px solid #e0e0e0; /* Разделительная линия */
+    }
+
+        .profile-info label {
+            font-weight: bold;
+            color: #555;
+        }
+
+        .profile-info p {
+            margin: 5px 0;
+            color: #666;
+        }
+
+    .projects {
+        flex: 2; /* Проекты занимают большую часть */
+        padding: 20px;
+        width: 100%; /* Занимает всю доступную ширину */
+        min-height: 400px; /* Увеличенная высота правого контейнера */
+    }
+
+        .projects h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+    .project-item {
+        background-color: #e9ecef;
+        padding: 10px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .edit-button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        text-align: center;
+        transition: background-color 0.3s;
+    }
+
+        .edit-button:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+        <script>
+            function red(a){
+
+    window.location.href = `/UserPages/Project?${a}`
+            }
+        </script>

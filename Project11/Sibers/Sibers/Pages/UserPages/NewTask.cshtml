@@ -1,0 +1,141 @@
+﻿@page
+@model Sibers.Pages.UserPages.NewTaskModel
+@{
+}
+<form class="form-container" id="form-container" method="post">
+    <label for="name">Имя задачи</label>
+    <input type="text" id="name" name="name" required />
+
+    <input hidden type="text" id="custCompany" name="idAuthor" value="@User.Claims.ToList().Find(x => x.Type =="personId").Value" required />
+
+    <label for="idPersons">Исполнитель</label>
+    <div class="scroll-container">
+        @foreach (var employee in Model.employee)
+        {
+
+            <p><input type="radio" name="idExecTask" value="@employee.id" required/>@employee.name</p>
+        }
+
+    </div>
+
+    <label for="comment">Комментарий</label>
+    <input type="text" id="comment" name="comment" required />
+
+    <label for="priority">Приоритет</label>
+    <input type="number" name="priority" required />
+
+    <button type="submit">Создать задачу</button>
+</form>
+
+<script>
+
+    function sendRequest (method, url, body = null,projectId) {
+        return new Promise( (resolve, reject) => {
+            const xhr = new XMLHttpRequest()
+            xhr.open(method, url)
+            xhr.responseType = 'json'
+            xhr.setRequestHeader('Content-Type', 'application/json')
+            xhr.setRequestHeader('Project', `${projectId}`)
+            xhr.onload = () => {
+                if (xhr.status >= 400) {
+                    reject(xhr.response)
+                } else {
+                    resolve(xhr.response)
+                    alert("Проект добавлен");
+                }
+            }
+            xhr.onerror= () => {
+            reject(xhr.response)
+            }
+            xhr.send(JSON.stringify(body))
+        })
+    }
+    const form = document.getElementById("form-container");
+    form.addEventListener("submit", function(event) {
+                event.preventDefault(); // предотвращаем стандартное поведение отправки формы
+
+                // Получаем все чекбоксы с именем "options"
+
+                const name = form.querySelector('input[name="name"]').value
+                const idAuthor = form.querySelector('input[name="idAuthor"]').value
+                const idExec = form.querySelector('input[name="idExecTask"]:checked').value;
+                const statusTask = 0;
+                const comment = form.querySelector('input[name="comment"]').value
+                const priority = form.querySelector('input[name="priority"]').value
+
+                // Создаем массив значений чекбоксов
+
+                // Формируем данные для отправки
+                const data = {
+                    id:0,
+                    name:name,
+                    idAuthorTask:idAuthor,
+                    idExecTask:idExec,
+                    statusTask:statusTask,
+                    comment:comment,
+                    priority:parseInt(priority)
+                };
+
+    sendRequest("POST",'/UserPages/NewTask',data, @Model.Id)
+    })
+
+</script>
+
+<style>
+    .scroll-container {
+        width: 100%;
+        max-width: 600px;
+        height: 100px; /* Высота контейнера */
+        overflow-y: auto; /* Вертикальная прокрутка */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background: white;
+        padding: 10px;
+    }
+
+    .form-container {
+        background-color: rgba(255, 255, 255);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0);
+        width: 400px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="password"],
+    input[type="number"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        transition: border-color 0.3s;
+    }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            border-color: #0056b3;
+            outline: none;
+        }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+</style>

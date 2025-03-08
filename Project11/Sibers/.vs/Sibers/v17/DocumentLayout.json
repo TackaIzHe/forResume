@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\TackaIzHe\\source\\repos\\Sibers\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8E845CA8-5DA6-4984-9589-BCD62A6A088E}|Sibers\\Sibers.csproj|c:\\users\\tackaizhe\\source\\repos\\sibers\\sibers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8E845CA8-5DA6-4984-9589-BCD62A6A088E}|Sibers\\Sibers.csproj|solutionrelative:sibers\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\TackaIzHe\\source\\repos\\Sibers\\Sibers\\Program.cs",
+              "RelativeDocumentMoniker": "Sibers\\Program.cs",
+              "ToolTip": "C:\\Users\\TackaIzHe\\source\\repos\\Sibers\\Sibers\\Program.cs",
+              "RelativeToolTip": "Sibers\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-07T12:43:56.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

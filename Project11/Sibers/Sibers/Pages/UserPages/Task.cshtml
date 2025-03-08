@@ -1,0 +1,97 @@
+﻿@page
+@using Sibers.Objects;
+@model Sibers.Pages.UserPages.TaskModel
+@{
+}
+<style>
+
+
+    .containerr {
+        max-width: 800px;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .project-actions {
+        margin-top: 20px;
+    }
+
+    .btn {
+        background-color: #007bff;
+        color: white;
+        padding: 10px 15px;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+</style>
+    <div class="containerr">
+        <h1 class="project-title">Название задачи</h1>
+        <h2>@Model.task.name</h2>
+
+        <div class="project-details">
+            <h2>Коментарий</h2>
+            <p>@Model.task.comment</p>
+        </div>
+    <form class="form-container" id="form-container">
+            <label for="statys"></label>
+        <select id="status" name="role" required>
+            <option value="0">ToDo</option>
+            <option value="1">InProgress</option>
+            <option value="2">Done</option>
+        </select>
+        <input type="submit" value="Поменять статус"/>
+        </form>
+        
+    </div>
+
+
+<script>
+
+    function sendRequest (method, url, body = null) {
+        return new Promise( (resolve, reject) => {
+            const xhr = new XMLHttpRequest()
+            xhr.open(method, url)
+            xhr.responseType = 'json'
+            xhr.setRequestHeader('Content-Type', 'application/json')
+            xhr.onload = () => {
+                if (xhr.status >= 400) {
+                    reject(xhr.response)
+                } else {
+                    resolve(xhr.response)
+                    alert("Статус изменён");
+                }
+            }
+            xhr.onerror= () => {
+            reject(xhr.response)
+            }
+            xhr.send(JSON.stringify(body))
+        })
+    }
+    const form = document.getElementById("form-container");
+    form.addEventListener("submit", function(event) {
+                event.preventDefault(); 
+
+                const stat = document.getElementById("status").value;
+     
+                const data = {
+                    id:@Model.task.id,
+                    name:"",
+                    idAuthorTask:0,
+                    idExecTask:0,
+                    statusTask:parseInt(stat),
+                    comment:"",
+                    priority:0
+                };
+
+    sendRequest("PUT",'/UserPages/Task',data)
+    })
+
+</script>

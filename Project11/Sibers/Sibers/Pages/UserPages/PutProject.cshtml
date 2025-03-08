@@ -1,0 +1,162 @@
+﻿@page
+@model Sibers.Pages.UserPages.PutProjectModel
+@{
+}
+<form class="form-container" id="form-container" method="post">
+    <label for="name">Имя проекта</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="custCompany">Компания заказчика</label>
+    <input type="text" id="custCompany" name="custCompany" required />
+
+    <label for="execCompany">Компания исполнителя</label>
+    <input type="text" id="execCompany" name="execCompany" required />
+
+    <label for="idPersons">Состав рабочих</label>
+    <div class="scroll-container">
+        @foreach (var employee in @Model.employee)
+        {
+
+            <p><input type="checkbox" name="idPersons" value="@employee.id" />@employee.name</p>
+        }
+
+    </div>
+
+    <label for="idProjManager">Проектный менеджер</label>
+    <div class="scroll-container">
+        @foreach (var manager in @Model.manager)
+        {
+
+            <p><input type="radio" name="idProjManager" value="@manager.id" required />@manager.name</p>
+        }
+
+    </div>
+
+    <label for="startDate">Дата начала</label>
+    <input type="date" name="startDate" required />
+
+    <label for="endDate">Дата завершения</label>
+    <input type="date" name="endDate" required />
+
+    <label for="priority">Приоритет</label>
+    <input type="number" name="priority" required />
+
+    <button type="submit">Создать проект</button>
+</form>
+
+<style>
+    .scroll-container {
+        width: 100%;
+        max-width: 600px;
+        height: 100px; /* Высота контейнера */
+        overflow-y: auto; /* Вертикальная прокрутка */
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background: white;
+        padding: 10px;
+    }
+
+    .form-container {
+        background-color: rgba(255, 255, 255);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0);
+        width: 400px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="password"],
+    input[type="number"],
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #007bff;
+        border-radius: 5px;
+        margin-bottom: 15px;
+        transition: border-color 0.3s;
+    }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="password"]:focus,
+        select:focus {
+            border-color: #0056b3;
+            outline: none;
+        }
+
+    button {
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: background-color 0.3s;
+    }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+</style>
+
+<script>
+
+    function sendRequest (method, url, body = null) {
+        return new Promise( (resolve, reject) => {
+            const xhr = new XMLHttpRequest()
+            xhr.open(method, url)
+            xhr.responseType = 'json'
+            xhr.setRequestHeader('Content-Type', 'application/json')
+            xhr.onload = () => {
+                if (xhr.status >= 400) {
+                    reject(xhr.response)
+                } else {
+                    resolve(xhr.response)
+                    alert("Проект обнавлён");
+                }
+            }
+            xhr.onerror= () => {
+            reject(xhr.response)
+            }
+            xhr.send(JSON.stringify(body))
+        })
+    }
+    const form = document.getElementById("form-container");
+    form.addEventListener("submit", function(event) {
+                event.preventDefault(); // предотвращаем стандартное поведение отправки формы
+
+                // Получаем все чекбоксы с именем "options"
+                const checkboxes = form.querySelectorAll('input[name="idPersons"]:checked');
+                const name = form.querySelector('input[name="name"]').value
+                const custCompany = form.querySelector('input[name="custCompany"]').value;
+                const execCompany = form.querySelector('input[name="execCompany"]').value;
+                const idProjManager = form.querySelector('input[name="idProjManager"]:checked').value;
+                const startDate = form.querySelector('input[name="startDate"]').value;;
+                const endDate = form.querySelector('input[name="endDate"]').value;;
+                const priority = form.querySelector('input[name="priority"]').value;;
+
+                // Создаем массив значений чекбоксов
+                const idPersons = Array.from(checkboxes).map(checkbox => parseInt(checkbox.value));
+
+                // Формируем данные для отправки
+                const data = {
+                    id:@Model.project.id,
+                    name:name,
+                    custCompany:custCompany,
+                    execCompany:execCompany,
+                    idPersons:idPersons,
+                    idProjManager:parseInt(idProjManager),
+                    startDate:startDate,
+                    endDate:endDate,
+                    priority:parseInt(priority),
+                    idTasks:[]
+                };
+
+    sendRequest("PUT",'/UserPages/PutProject',data)
+    })
+
+</script>

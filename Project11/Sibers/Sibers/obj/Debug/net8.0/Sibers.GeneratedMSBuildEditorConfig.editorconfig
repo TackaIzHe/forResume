@@ -1,0 +1,101 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Sibers
+build_property.RootNamespace = Sibers
+build_property.ProjectDir = C:\Users\TackaIzHe\source\repos\Sibers\Sibers\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\TackaIzHe\source\repos\Sibers\Sibers
+build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/LogOut.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXExvZ091dC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/NewProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXE5ld1Byb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/NewTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXE5ld1Rhc2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/Persons.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFBlcnNvbnMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/Project.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFByb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/Projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFByb2plY3RzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/PutPerson.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFB1dFBlcnNvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/PutProject.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFB1dFByb2plY3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/Task.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFRhc2suY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/UserPages/Tasks.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclBhZ2VzXFRhc2tzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TackaIzHe/source/repos/Sibers/Sibers/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-fe5oeoo6mi
